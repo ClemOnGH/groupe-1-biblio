@@ -264,7 +264,7 @@ for (let index = 0; index < table.length; index++) {
     <p>De <a href="${table[index].author.link}">${table[index].author.name}</a></p>
     <p>Avec ${actors(table[index].actors)}</p>
     <p style="font-weight:bold">Note : ${table[index].rating}</p>
-    <button type="button">Plus de détails</button>
+    <button type="button"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Plus de détails</a></button>
     </div>
     </div>
     <div class="blog-description">
