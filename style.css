@@ -1,0 +1,67 @@
+img {
+    width: 200px;
+}
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 h3 h4 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.blog-entry {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px;
+}
+.img-card {
+    display: 0 0 40%;
+    width: 20%;
+}
+.img-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 0px 10px 10px 0px;
+    margin: 5px;
+}
+.blog-description {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #1c86ee;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #1874cd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
